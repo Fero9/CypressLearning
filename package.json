@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "echo This is a PRETest",
+    "posttest": "echo This is a POSTTest",
+    "test": "echo This is the TEST",
+    "hello": "echo Hello World"
   },
   "keywords": [],
   "author": "",
